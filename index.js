@@ -13,6 +13,9 @@ client.on('message', msg => {
   if (msg.content === 'hola' && msg.author.username == 'kernnel'){
     msg.channel.send('hola sumagestad'+msg.author);
       console.log(msg.author.username)
+  }
+  if (msg.content === 'git') {
+    msg.reply('hub');
   }else if(msg.content === 'hola'){
     msg.channel.send('hola '+msg.author);
   }
