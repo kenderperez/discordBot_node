@@ -22,5 +22,5 @@ client.on('message', msg => {
  
   //final de los if
 });
-
+//ACA VA EL AUTHTOKKEN COMO PARAMETRO DEL METODO CLIENT.LOGIN
 client.login('NjEwMDQ0MDYyMjY2OTQ5NjQz.XU_lPQ.kr1vGNm40QYsfT_glXBBwNEn278');
